@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Demo2.sol": "MyShop"
+			"contracts/Demo3.sol": "Demo3"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Demo2.sol": {
-			"keccak256": "0x0ee0df7a164ec7ae1d8d1cf65ceb6e470886811531e7230ff645a09d2fd6e0a5",
+		"contracts/Demo3.sol": {
+			"keccak256": "0x82681df0151308e2abc07bc0d83d71d2aea7faafab646828cf4f3630e849eb3e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d333db8ee5a59493f000273c9ffa912139cb3f89c02f656d0bd496dd9573ff1",
-				"dweb:/ipfs/QmTA4c2CRNSzho1ruiSSY9VZQyAMVQ7s29DsoXvR8FFupf"
+				"bzz-raw://29703341940e886bb20477309aa297d6a9860d476ef3b66fbbf0c4d03cbda3a0",
+				"dweb:/ipfs/Qmeh1tPnbai6JZCVLWE7WEYCMCZnicogSSv42HGqCgshLm"
 			]
 		}
 	},
