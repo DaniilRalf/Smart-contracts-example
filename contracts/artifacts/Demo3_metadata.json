@@ -4,7 +4,110 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newValueStr",
+						"type": "string"
+					}
+				],
+				"name": "demo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "targetAddr",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "payments",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "targetAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +136,11 @@
 	},
 	"sources": {
 		"contracts/Demo3.sol": {
-			"keccak256": "0x82681df0151308e2abc07bc0d83d71d2aea7faafab646828cf4f3630e849eb3e",
+			"keccak256": "0xda4051cb5548c290eebf4178efc335decc510b0c9e0acd071430bcb9715c55ae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://29703341940e886bb20477309aa297d6a9860d476ef3b66fbbf0c4d03cbda3a0",
-				"dweb:/ipfs/Qmeh1tPnbai6JZCVLWE7WEYCMCZnicogSSv42HGqCgshLm"
+				"bzz-raw://80bfd6d549a48e48d08b923dc2aa235a1bf6821c197274f6b7b8b4147a8f97a3",
+				"dweb:/ipfs/QmNxNBXxDbK5DQ1qhmFQg7aD816LTFRggAveeyU97xMfkS"
 			]
 		}
 	},
